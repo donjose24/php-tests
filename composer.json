@@ -1,0 +1,24 @@
+{
+    "name": "jramos/unit-testing",
+    "description": "A sample unit tests sample repository written in PHP",
+    "authors": [
+        {
+            "name": "Jose Mari Ramos",
+            "email": "ramosjosemari@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "fzaninotto/faker": "^1.6"
+    }
+}
